@@ -1,0 +1,11 @@
+group 'pl.jaca'
+version '1.0'
+
+apply plugin: 'java'
+apply plugin: 'scala'
+
+subprojects {
+    repositories {
+        mavenCentral()
+    }
+}

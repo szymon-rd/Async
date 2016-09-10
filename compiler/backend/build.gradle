@@ -1,0 +1,13 @@
+group 'pl.jaca'
+version '1.0'
+
+apply plugin: 'java'
+apply plugin: 'scala'
+
+dependencies {
+    compile 'org.antlr:antlr4-runtime:4.5.2'
+    compile 'org.slf4j:slf4j-api:1.7.12'
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.4'
+    compile group: 'commons-io', name: 'commons-io', version: '2.5'
+    compile group: 'com.google.guava', name: 'guava', version: '19.0'
+}
